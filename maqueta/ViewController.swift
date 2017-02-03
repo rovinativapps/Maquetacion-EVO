@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setNavigationBar()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +20,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    //Supporting functions
+    
+    func setNavigationBar(){
+        self.navigationController?.navigationBar.barTintColor = UIColor.black
+        
+        let label = UILabel()
+        label.text = "VIRTUAL PT"
+        label.textColor = UIColor.white
+        label.font = UIFont.boldSystemFont(ofSize: 15)
+        label.sizeToFit()
+        
+        self.navigationItem.titleView = label
+    }
 
 }
 

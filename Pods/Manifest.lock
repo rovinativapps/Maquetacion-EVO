@@ -1,0 +1,15 @@
+PODS:
+  - DropDown (2)
+  - SwifterSwift (1.3.6)
+
+DEPENDENCIES:
+  - DropDown
+  - SwifterSwift
+
+SPEC CHECKSUMS:
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  SwifterSwift: bd0af9f9203b5a367baaf8916f932eba9fd8ac51
+
+PODFILE CHECKSUM: ebaffaa5243cec02706dbbcab4b82e55e082668c
+
+COCOAPODS: 1.1.1
