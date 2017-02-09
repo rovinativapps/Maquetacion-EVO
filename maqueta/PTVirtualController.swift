@@ -23,6 +23,11 @@ class PTVirtualController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func finishWorkout(_ sender: UIButton) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Finish Workout VC") as! FinishWorkoutController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     //Supporting functions
     

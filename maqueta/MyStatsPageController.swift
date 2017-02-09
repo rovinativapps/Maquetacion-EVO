@@ -15,9 +15,7 @@ class MyStatsPageController: UIPageViewController{
                 self.storyboard!.instantiateViewController(withIdentifier: "My Stats 2 VC")]
     }()
     
-//    private func newStatsViewController(_ index: Int) -> UIViewController {
-//        return self.storyboard!.instantiateViewController(withIdentifier: "My Stats \(index) VC")
-//    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

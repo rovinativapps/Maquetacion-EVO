@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DropDown.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NVActivityIndicatorView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,10 +29,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2B1AD9C9E7119EBA5FA116C6BD70FBB2</key>
+		<key>29F55AF61B3C15E02F6BF41876248714</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC199A5BC0C626E530CD7391EA4770FC</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F297A406416EFEB10B6BFEE9338ACC77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE7D83B37A290B6D2816CA076ED518BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

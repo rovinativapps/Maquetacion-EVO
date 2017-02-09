@@ -10,9 +10,18 @@ import UIKit
 
 class MyStats2Controller: UIViewController {
 
+    
+    @IBOutlet var floorsLabel: UILabel!
+    
+    @IBOutlet var hoursLabel: UILabel!
+    
+    @IBOutlet var kilometersLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.kilometersLabel.text = "\(DataService.sharedInstance.stats[0].distance!)"
         // Do any additional setup after loading the view.
     }
 

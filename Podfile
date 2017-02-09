@@ -8,6 +8,10 @@ target 'maqueta' do
   # Pods for maqueta
 pod 'DropDown'
 pod 'SwifterSwift'
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'NVActivityIndicatorView'
+
 
 
 end

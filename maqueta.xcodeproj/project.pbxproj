@@ -19,7 +19,12 @@
 		DD2205AD1E43D2D800DC666D /* MyStatsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2205AC1E43D2D800DC666D /* MyStatsPageController.swift */; };
 		DD2205AF1E43D4BD00DC666D /* MyStats1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2205AE1E43D4BD00DC666D /* MyStats1Controller.swift */; };
 		DD2205B11E43DBB900DC666D /* MyStats2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2205B01E43DBB900DC666D /* MyStats2Controller.swift */; };
+		DD22E4191E4D013A006C40C0 /* FinishWorkoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22E4181E4D013A006C40C0 /* FinishWorkoutController.swift */; };
+		DD688F9B1E48BFAF0044068D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD688F9A1E48BFAF0044068D /* DataService.swift */; };
+		DD688F9E1E48D2BC0044068D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD688F9D1E48D2BC0044068D /* Message.swift */; };
 		DDA86A4F1E4244EE0057443A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA86A4E1E4244EE0057443A /* ProfileController.swift */; };
+		DDB07F7C1E4B70C0007CF0A5 /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07F7B1E4B70C0007CF0A5 /* Stat.swift */; };
+		DDCE44711E4A56160056A93F /* MessageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE44701E4A56160056A93F /* MessageDetailController.swift */; };
 		DDFE30C71E438A53003D99E5 /* PTVirtualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE30C61E438A53003D99E5 /* PTVirtualController.swift */; };
 		DDFE30C91E438AFC003D99E5 /* PTVirtualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE30C81E438AFC003D99E5 /* PTVirtualCell.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +46,12 @@
 		DD2205AC1E43D2D800DC666D /* MyStatsPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStatsPageController.swift; sourceTree = "<group>"; };
 		DD2205AE1E43D4BD00DC666D /* MyStats1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStats1Controller.swift; sourceTree = "<group>"; };
 		DD2205B01E43DBB900DC666D /* MyStats2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStats2Controller.swift; sourceTree = "<group>"; };
+		DD22E4181E4D013A006C40C0 /* FinishWorkoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishWorkoutController.swift; sourceTree = "<group>"; };
+		DD688F9A1E48BFAF0044068D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DD688F9D1E48D2BC0044068D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		DDA86A4E1E4244EE0057443A /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		DDB07F7B1E4B70C0007CF0A5 /* Stat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+		DDCE44701E4A56160056A93F /* MessageDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailController.swift; sourceTree = "<group>"; };
 		DDFE30C61E438A53003D99E5 /* PTVirtualController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTVirtualController.swift; sourceTree = "<group>"; };
 		DDFE30C81E438AFC003D99E5 /* PTVirtualCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTVirtualCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +106,8 @@
 		DD1F0EE71E3FCDA2006C2C78 /* maqueta */ = {
 			isa = PBXGroup;
 			children = (
+				DD688F9C1E48D2B10044068D /* Domain */,
+				DD688F991E48BFA10044068D /* Services */,
 				DD1F0EFC1E3FEFC7006C2C78 /* Components */,
 				DD1F0EE81E3FCDA2006C2C78 /* AppDelegate.swift */,
 				DD1F0EEA1E3FCDA2006C2C78 /* ViewController.swift */,
@@ -110,6 +122,8 @@
 				DD2205AC1E43D2D800DC666D /* MyStatsPageController.swift */,
 				DD2205AE1E43D4BD00DC666D /* MyStats1Controller.swift */,
 				DD2205B01E43DBB900DC666D /* MyStats2Controller.swift */,
+				DDCE44701E4A56160056A93F /* MessageDetailController.swift */,
+				DD22E4181E4D013A006C40C0 /* FinishWorkoutController.swift */,
 			);
 			path = maqueta;
 			sourceTree = "<group>";
@@ -121,6 +135,23 @@
 				DDFE30C81E438AFC003D99E5 /* PTVirtualCell.swift */,
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		DD688F991E48BFA10044068D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD688F9A1E48BFAF0044068D /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DD688F9C1E48D2B10044068D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DD688F9D1E48D2BC0044068D /* Message.swift */,
+				DDB07F7B1E4B70C0007CF0A5 /* Stat.swift */,
+			);
+			name = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,11 +281,16 @@
 				DD2205AD1E43D2D800DC666D /* MyStatsPageController.swift in Sources */,
 				DD1F0EEB1E3FCDA2006C2C78 /* ViewController.swift in Sources */,
 				DD2205B11E43DBB900DC666D /* MyStats2Controller.swift in Sources */,
+				DDB07F7C1E4B70C0007CF0A5 /* Stat.swift in Sources */,
+				DD688F9B1E48BFAF0044068D /* DataService.swift in Sources */,
+				DDCE44711E4A56160056A93F /* MessageDetailController.swift in Sources */,
 				DDFE30C91E438AFC003D99E5 /* PTVirtualCell.swift in Sources */,
 				DDFE30C71E438A53003D99E5 /* PTVirtualController.swift in Sources */,
+				DD22E4191E4D013A006C40C0 /* FinishWorkoutController.swift in Sources */,
 				DD1F0EFB1E3FEBA9006C2C78 /* InboxController.swift in Sources */,
 				DD2205AF1E43D4BD00DC666D /* MyStats1Controller.swift in Sources */,
 				DD1F0EFE1E3FEFDA006C2C78 /* InboxCell.swift in Sources */,
+				DD688F9E1E48D2BC0044068D /* Message.swift in Sources */,
 				DD1F0F001E3FF8B1006C2C78 /* TabBarController.swift in Sources */,
 				DD1F0EE91E3FCDA2006C2C78 /* AppDelegate.swift in Sources */,
 				DDA86A4F1E4244EE0057443A /* ProfileController.swift in Sources */,

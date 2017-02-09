@@ -10,6 +10,15 @@ import UIKit
 
 class InboxCell: UITableViewCell {
 
+    @IBOutlet var senderLabel: UILabel!
+    
+    @IBOutlet var timeSentLabel: UILabel!
+    
+    @IBOutlet var messageSummaryLabel: UILabel!
+    
+    @IBOutlet var statusImage: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +29,7 @@ class InboxCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
 
 }
