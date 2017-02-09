@@ -112,7 +112,7 @@ class FinishWorkoutController: UIViewController {
         
         let shareButton = UIBarButtonItem(image: UIImage(named: "share"), style: .plain, target: nil, action: nil)
         
-//        shareButton.tintColor = UIColor(red: 25/255, green: 90/255, blue: 85/255, alpha: 1.0)
+        shareButton.tintColor = UIColor(red: 25/255, green: 90/255, blue: 85/255, alpha: 1.0)
         self.navigationItem.rightBarButtonItems = [shareButton]
         
         self.navigationItem.titleView = label
