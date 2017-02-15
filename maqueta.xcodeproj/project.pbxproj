@@ -25,6 +25,7 @@
 		DDA86A4F1E4244EE0057443A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA86A4E1E4244EE0057443A /* ProfileController.swift */; };
 		DDB07F7C1E4B70C0007CF0A5 /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB07F7B1E4B70C0007CF0A5 /* Stat.swift */; };
 		DDCE44711E4A56160056A93F /* MessageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE44701E4A56160056A93F /* MessageDetailController.swift */; };
+		DDFCA26D1E550FE5003F9E2F /* Profile2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFCA26C1E550FE5003F9E2F /* Profile2Controller.swift */; };
 		DDFE30C71E438A53003D99E5 /* PTVirtualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE30C61E438A53003D99E5 /* PTVirtualController.swift */; };
 		DDFE30C91E438AFC003D99E5 /* PTVirtualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE30C81E438AFC003D99E5 /* PTVirtualCell.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		DDA86A4E1E4244EE0057443A /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		DDB07F7B1E4B70C0007CF0A5 /* Stat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
 		DDCE44701E4A56160056A93F /* MessageDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDetailController.swift; sourceTree = "<group>"; };
+		DDFCA26C1E550FE5003F9E2F /* Profile2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile2Controller.swift; sourceTree = "<group>"; };
 		DDFE30C61E438A53003D99E5 /* PTVirtualController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTVirtualController.swift; sourceTree = "<group>"; };
 		DDFE30C81E438AFC003D99E5 /* PTVirtualCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTVirtualCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +120,7 @@
 				DD1F0EFA1E3FEBA9006C2C78 /* InboxController.swift */,
 				DD1F0EFF1E3FF8B1006C2C78 /* TabBarController.swift */,
 				DDA86A4E1E4244EE0057443A /* ProfileController.swift */,
+				DDFCA26C1E550FE5003F9E2F /* Profile2Controller.swift */,
 				DDFE30C61E438A53003D99E5 /* PTVirtualController.swift */,
 				DD2205AC1E43D2D800DC666D /* MyStatsPageController.swift */,
 				DD2205AE1E43D4BD00DC666D /* MyStats1Controller.swift */,
@@ -290,6 +293,7 @@
 				DD1F0EFB1E3FEBA9006C2C78 /* InboxController.swift in Sources */,
 				DD2205AF1E43D4BD00DC666D /* MyStats1Controller.swift in Sources */,
 				DD1F0EFE1E3FEFDA006C2C78 /* InboxCell.swift in Sources */,
+				DDFCA26D1E550FE5003F9E2F /* Profile2Controller.swift in Sources */,
 				DD688F9E1E48D2BC0044068D /* Message.swift in Sources */,
 				DD1F0F001E3FF8B1006C2C78 /* TabBarController.swift in Sources */,
 				DD1F0EE91E3FCDA2006C2C78 /* AppDelegate.swift in Sources */,

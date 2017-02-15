@@ -20,6 +20,8 @@ class InboxController: UIViewController, NVActivityIndicatorViewable {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.automaticallyAdjustsScrollViewInsets = false
+
         startAnimating(message: "cargando", type: NVActivityIndicatorType.ballClipRotate)
 
         DataService.sharedInstance.getToken("asier@evo.com", "vitale",{error,token in
