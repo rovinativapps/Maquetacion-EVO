@@ -404,6 +404,88 @@
             </objects>
             <point key="canvasLocation" x="1912.8" y="-179.46026986506749"/>
         </scene>
+        <!--Profile3 Controller-->
+        <scene sceneID="LrH-E5-aXg">
+            <objects>
+                <viewController storyboardIdentifier="Profile 3 VC" id="i7r-9M-i8k" customClass="Profile3Controller" customModule="maqueta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P5m-k8-2gB"/>
+                        <viewControllerLayoutGuide type="bottom" id="hcn-0x-oJv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="39r-u8-NJF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL SETTING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhU-xn-JQI">
+                                <rect key="frame" x="127.5" y="50" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A9B-ge-PcX">
+                                <rect key="frame" x="36" y="91" width="303" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qFG-7f-KbE"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBGOALS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9Q-0Z-Bij">
+                                <rect key="frame" x="142.5" y="181" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F3y-OK-Hmb">
+                                <rect key="frame" x="36" y="222" width="303" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IeH-sA-jwB"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1647058824" green="0.1647058824" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z9Q-0Z-Bij" firstAttribute="top" secondItem="A9B-ge-PcX" secondAttribute="bottom" constant="40" id="4It-Hi-RCy"/>
+                            <constraint firstItem="F3y-OK-Hmb" firstAttribute="leading" secondItem="39r-u8-NJF" secondAttribute="leadingMargin" constant="20" id="5ya-ar-4nh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F3y-OK-Hmb" secondAttribute="trailing" constant="20" id="8Ww-vQ-mdk"/>
+                            <constraint firstItem="A9B-ge-PcX" firstAttribute="leading" secondItem="39r-u8-NJF" secondAttribute="leadingMargin" constant="20" id="D4E-jP-RWq"/>
+                            <constraint firstItem="AhU-xn-JQI" firstAttribute="centerX" secondItem="39r-u8-NJF" secondAttribute="centerX" id="JYH-RI-TAV"/>
+                            <constraint firstItem="F3y-OK-Hmb" firstAttribute="top" secondItem="Z9Q-0Z-Bij" secondAttribute="bottom" constant="20" id="UDK-LD-5ib"/>
+                            <constraint firstItem="AhU-xn-JQI" firstAttribute="top" secondItem="P5m-k8-2gB" secondAttribute="bottom" constant="30" id="XUU-hA-a5Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A9B-ge-PcX" secondAttribute="trailing" constant="20" id="ZyS-rS-zPk"/>
+                            <constraint firstItem="Z9Q-0Z-Bij" firstAttribute="centerX" secondItem="39r-u8-NJF" secondAttribute="centerX" id="bvT-t5-1qj"/>
+                            <constraint firstItem="A9B-ge-PcX" firstAttribute="top" secondItem="AhU-xn-JQI" secondAttribute="bottom" constant="20" id="dJ7-5z-Tkw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goalsTextField" destination="A9B-ge-PcX" id="KGw-nq-igQ"/>
+                        <outlet property="subGoalsTextField" destination="F3y-OK-Hmb" id="bW0-Gg-vUn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vj5-MF-Yxj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2596" y="-179"/>
+        </scene>
         <!--Profile2 Controller-->
         <scene sceneID="zuO-94-NQ2">
             <objects>
@@ -562,7 +644,7 @@ WORKOUT DURATION?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KiE-u0-H1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2649" y="-181"/>
+            <point key="canvasLocation" x="3354" y="-179"/>
         </scene>
         <!--Item-->
         <scene sceneID="3HC-sb-W2c">

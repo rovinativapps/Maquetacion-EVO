@@ -171,7 +171,7 @@ class ProfileController: UIViewController, UITextFieldDelegate, UIPickerViewDele
     
     
     func navigate( _ sender: UIBarButtonItem){
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Profile 2 VC") as! Profile2Controller
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Profile 3 VC") as! Profile3Controller
         self.navigationController?.pushViewController(vc, animated: true)
     }
     func setTextFields(){

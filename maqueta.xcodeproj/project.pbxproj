@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22F29CFDF126C5D35B02EB17 /* Pods_maqueta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8E51AA00928AD05F9418F7 /* Pods_maqueta.framework */; };
+		DD1995331E5DF7F8008EDFAE /* Profile3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1995321E5DF7F8008EDFAE /* Profile3Controller.swift */; };
 		DD1F0EE91E3FCDA2006C2C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1F0EE81E3FCDA2006C2C78 /* AppDelegate.swift */; };
 		DD1F0EEB1E3FCDA2006C2C78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1F0EEA1E3FCDA2006C2C78 /* ViewController.swift */; };
 		DD1F0EEE1E3FCDA2006C2C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1F0EEC1E3FCDA2006C2C78 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		BB8E51AA00928AD05F9418F7 /* Pods_maqueta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maqueta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66A810828172B59C767285F /* Pods-maqueta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maqueta.release.xcconfig"; path = "Pods/Target Support Files/Pods-maqueta/Pods-maqueta.release.xcconfig"; sourceTree = "<group>"; };
 		CBA3D25DC5CB9453816601A8 /* Pods-maqueta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maqueta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-maqueta/Pods-maqueta.debug.xcconfig"; sourceTree = "<group>"; };
+		DD1995321E5DF7F8008EDFAE /* Profile3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile3Controller.swift; sourceTree = "<group>"; };
 		DD1F0EE51E3FCDA2006C2C78 /* maqueta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maqueta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1F0EE81E3FCDA2006C2C78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD1F0EEA1E3FCDA2006C2C78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				DD1F0EFF1E3FF8B1006C2C78 /* TabBarController.swift */,
 				DDA86A4E1E4244EE0057443A /* ProfileController.swift */,
 				DDFCA26C1E550FE5003F9E2F /* Profile2Controller.swift */,
+				DD1995321E5DF7F8008EDFAE /* Profile3Controller.swift */,
 				DDFE30C61E438A53003D99E5 /* PTVirtualController.swift */,
 				DD2205AC1E43D2D800DC666D /* MyStatsPageController.swift */,
 				DD2205AE1E43D4BD00DC666D /* MyStats1Controller.swift */,
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2205AD1E43D2D800DC666D /* MyStatsPageController.swift in Sources */,
+				DD1995331E5DF7F8008EDFAE /* Profile3Controller.swift in Sources */,
 				DD1F0EEB1E3FCDA2006C2C78 /* ViewController.swift in Sources */,
 				DD2205B11E43DBB900DC666D /* MyStats2Controller.swift in Sources */,
 				DDB07F7C1E4B70C0007CF0A5 /* Stat.swift in Sources */,
